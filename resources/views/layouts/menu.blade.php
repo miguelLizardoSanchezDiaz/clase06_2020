@@ -3,7 +3,7 @@
     <!-- Brand Logo -->
     <a href="{{url('home')}}" class="brand-link">
       <img src="adminlte/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Medida Perú</span>
+      <span class="brand-text font-weight-light">Indicadores de Gestión</span>
     </a>
 
     <!-- Sidebar -->
@@ -57,68 +57,26 @@
             <a href="#" class="nav-link ">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Maestros
+                Indicadores
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{url('producto')}}" class="nav-link">
+                <a href="{{url('cantidad-practicas-por-carrera')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Productos</p>
+                  <p># prácticas por carrera</p>
                 </a>
               </li>
+
               <li class="nav-item">
-                <a href="{{url('tercero')}}" class="nav-link active">
+                <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Terceros</p>
+                  <p>Ingresos en soles por fechas</p>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Categorías</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Almacenes</p>
-                </a>
-              </li>
+              
             </ul>
-          </li>
-
-          <li class="nav-item">
-            <a href="pages/calendar.html" class="nav-link">
-              <i class="nav-icon fas fa-boxes"></i>
-              <p>
-                Almacén
-                <!--<span class="badge badge-info right">2</span>-->
-              </p>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a href="pages/calendar.html" class="nav-link">
-              <i class="nav-icon fas fa-shopping-bag"></i>
-              <p>
-                Ventas
-                <!--<span class="badge badge-info right">2</span>-->
-              </p>
-            </a>
-          </li>
-          
-
-
-          <li class="nav-item">
-            <a href="pages/calendar.html" class="nav-link">
-              <i class="nav-icon fas fa-file-invoice-dollar"></i>
-              <p>
-                Documentos Electrónicos
-                <!--<span class="badge badge-info right">2</span>-->
-              </p>
-            </a>
           </li>
 
 
@@ -138,21 +96,15 @@
             </form>
           </li>
 
-          <li class="nav-header">OTROS RECURSOS</li>
+          {{--<li class="nav-header">OTROS RECURSOS</li>
           <li class="nav-item">
             <a href="https://adminlte.io/docs/3.0" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>Documentación</p>
             </a>
-          </li>
+          </li>--}}
 
 
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-store"></i>
-              <p>Punto de venta</p>
-            </a>
-          </li>
           
         </ul>
       </nav>
